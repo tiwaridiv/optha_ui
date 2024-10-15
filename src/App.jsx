@@ -6,6 +6,7 @@ import Services from './Components/Services'
 import Doctors from './Components/Doctors'
 import Blogs from './Components/Blogs'
 import Footer from './Components/Footer'
+import MainYoutube from './Components/Youtube/MainYoutube'
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
       <div id='about'><About></About></div>
       <div id='services'><Services></Services></div>
       <div id='doctors'><Doctors></Doctors></div>
-      <div id='blogs'><Blogs></Blogs></div>
+      {/* <div id='blogs'><Blogs></Blogs></div> */}
+      <div id='blogs'><MainYoutube/></div>
+
      </main>
      <Footer></Footer>
     </>
@@ -28,3 +31,4 @@ function App() {
 }
 
 export default App
+

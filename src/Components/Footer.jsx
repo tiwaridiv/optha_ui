@@ -94,8 +94,15 @@ const Footer = () => {
       </div>
       <div>
         <p className=" text-center py-4">
-        Copyright © 2024 - All right reserved By
-          <span className=" text-hoverColor"> Rahman Tamim</span>
+          Developed by
+          <a
+            href="https://www.treleva.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" text-hoverColor ml-1"
+          >
+            Treleva Technologies
+          </a>
         </p>
       </div>
     </div>

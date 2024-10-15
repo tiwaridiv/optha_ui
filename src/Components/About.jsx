@@ -3,26 +3,31 @@ import img from "../assets/img/about.jpg";
 
 const About = () => {
   return (
-    <div className=" min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
+    <div className=" min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24  gap-5">
       <div className=" w-full lg:w-3/4 space-y-4">
-        <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
+        <h1 className=" text-4xl font-semibold text-center lg:text-start">
+          About Us
+        </h1>
         <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
+          At our ophthalmology practice, we are dedicated to providing
+          exceptional eye care tailored to your unique needs. With years of
+          experience and a passion for helping our patients achieve optimal
+          vision, we offer comprehensive services ranging from routine eye exams
+          to advanced treatments for a wide variety of eye conditions.
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
+          We believe in a patient-first approach, ensuring that each individual
+          receives the personalized attention they deserve. Our state-of-the-art
+          technology, combined with our team’s expertise, allows us to deliver
+          accurate diagnoses and effective treatments, helping you maintain
+          healthy vision for life.
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+          Our commitment to your eye health goes beyond just treatment—we strive
+          to educate and empower you to take control of your vision care.
+          Whether you're coming in for a routine checkup or a specialized
+          procedure, we are here to guide you through every step of the process
+          with compassion and professionalism. Your vision, our priority.
         </p>
       </div>
       <div className=" w-full lg:w-3/4">
